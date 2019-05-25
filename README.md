@@ -1,4 +1,4 @@
-# n2n_v2_docker
+# n2n_v2_supernode_docker
 
 Based on [ntop_n2n_v2](https://github.com/ntop/n2n),and make some modifications to use in Alpine Linux.
 
