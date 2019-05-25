@@ -17,7 +17,7 @@ docker build -t v2 .
 7654 is the port defined at Dockerfile.
 
 ```
-docker run --rm -d -p 7654:7654/udp v2
+docker run --rm -p 7654:7654/udp v2
 ```
 
 ## Connect
