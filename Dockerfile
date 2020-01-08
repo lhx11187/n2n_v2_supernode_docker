@@ -17,8 +17,6 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
 	&& cd /usr/src \
 	&& git clone https://github.com/ntop/n2n.git \
 	&& cd /usr/src/n2n \
-	&& sed -i '25s/<time.h>/<\/usr\/include\/time.h>/g' benchmark.c \
-	&& sed -i '23s/^/\#include \<\/usr\/include\/time.h\>\n/' n2n_transforms.h \
 	&& ./autogen.sh \
 	&& ./configure \
 	&& make \
